@@ -8,11 +8,12 @@ import Skills from './sections/Skills/Skills';
 function App() {
   return (
     <>
-      <Hero />
-      <Projects />
-      <Skills />
-      
-      <Footer />
+      <div className="min-h-screen bg-background text-foreground transition-colors duration-300">
+        <Hero />
+        <Projects />
+        <Skills />
+        <Footer />
+      </div>
     </>
   );
 }

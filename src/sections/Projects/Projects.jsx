@@ -1,8 +1,9 @@
 import styles from './ProjectsStyles.module.css';
 import viberr from '../../assets/viberr.png';
 import freshBurger from '../../assets/fresh-burger.png';
-import ChatApp from '../../assets/ChatApp.png'
-import ToDo from '../../assets/ToDo.png'
+import ChatApp from '../../assets/ChatApp.png';
+import ToDo from '../../assets/ToDo.png';
+import echoForm from '../../assets/echoform.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -10,6 +11,12 @@ function Projects() {
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
+        <ProjectCard
+          src={echoForm}
+          link="https://echoformz.vercel.app/"
+          h3="EchoForm"
+          p="Form Builder"
+        />
         <ProjectCard
           src={ChatApp}
           link="https://github.com/RITISHM03/Chat_App"
@@ -22,11 +29,9 @@ function Projects() {
           h3="Taskerr"
           p="ToDo List"
         />
-       
       </div>
     </section>
   );
 }
 
 export default Projects;
-

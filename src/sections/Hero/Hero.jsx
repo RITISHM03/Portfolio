@@ -38,6 +38,7 @@ function Hero() {
         Full stack Developer
     </h2>
     <span>
+      
 
         <a href="https://github.com/RITISHM03" target="_blank">
         <img src={githubIcon} alt="Github icon"></img></a>
