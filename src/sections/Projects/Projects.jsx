@@ -29,6 +29,12 @@ function Projects() {
           h3="Taskerr"
           p="ToDo List"
         />
+        <ProjectCard
+          src={echoForm}
+          link="https://reportnoww.vercel.app/"
+          h3="ReportNow"
+          p="Incident Reporting Platform"
+        />
       </div>
     </section>
   );
